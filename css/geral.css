@@ -1,0 +1,112 @@
+body,
+h1,
+h2,
+ul,
+li,
+p,
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   font-family: "Poppins", sans-serif;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+.estrutura {
+   display: grid;
+   grid-template-columns: 1fr;
+   columns: 2 / -1;
+}
+
+.header {
+   background: linear-gradient(#101942, #00001a)
+}
+
+.nav {}
+
+.navegacao a {
+   color: white;
+
+}
+
+.navegacao {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   justify-content: flex-end;
+   font-size: 1.875rem;
+   padding: 10px;
+   margin-right: 70px;
+   justify-items: flex-end;
+   align-items: flex-start;
+   margin-top: -50px;
+   margin-bottom: 30px;
+}
+
+.log {
+   flex-wrap: wrap;
+   padding: 10px;
+   margin: 5px;
+   padding-top: 60px;
+}
+
+.titulo {
+   position: absolute;
+   color: rgba(0, 0, 0, 0.9);
+   margin-top: 350px;
+   margin-left: 690px;
+   text-align: center;
+   padding: 30px;
+   text-shadow: 2px 2px white;
+   font-weight: bold;
+   font-size: 3rem;
+
+}
+
+.logo img {
+   width: 100%;
+   height: 540px;
+   object-fit: cover;
+   opacity: .9;
+}
+
+.sobre {
+   text-align: center;
+   font-size: 2.8rem;
+   color: rgba(0, 0, 0, 0.8);
+   font-weight: 600;
+   margin-top: 50px;
+   font-family: "Roboto", Georgia, 'Times New Roman', Times, serif;
+}
+.span-sobre{
+   content: " ";
+   width: 20px;
+   height:2px;
+   
+}
+
+.section-sobre {
+   display: block;
+   height:30vh;
+   grid-template-columns: 1fr;
+   font-size: 1.685rem;
+   font-family: "Poppins", sans-serif;
+   padding: 30px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+   position: relative;
+}
+
+ .paragrafo-sobre {
+    margin-top: 50px;
+   color: rgba(0, 0, 0, 0.7);
+   line-height: 1;
+   letter-spacing: 0.6;
+
+}
